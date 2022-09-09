@@ -101,4 +101,3 @@ export default function Home() {
     </Center>
   );
 }
-export { getServerSideProps } from '../components/chakra';
