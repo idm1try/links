@@ -33,7 +33,7 @@ export default function Home() {
         />
         <Flex justify='center' mt={-12}>
           <Avatar
-            src='https://idm1try.github.io/avatar.png'
+            src='https://idm1try.github.io/avatar.webp'
             size='xl'
             css={{
               border: '2px solid white',
