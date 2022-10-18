@@ -10,7 +10,7 @@ import {
   Button,
   useColorModeValue,
 } from '@chakra-ui/react';
-import { IoLogoGithub, IoLogoTwitter } from 'react-icons/io5';
+import { TbBrandGithub, TbBrandTwitter, TbMail } from 'react-icons/tb';
 
 export default function Home() {
   return (
@@ -31,13 +31,7 @@ export default function Home() {
           objectFit='cover'
         />
         <Flex justify='center' mt={-12}>
-          <Avatar
-            src='https://idm1try.github.io/avatar.webp'
-            size='xl'
-            css={{
-              border: '2px solid white',
-            }}
-          />
+          <Avatar src='/avatar.webp' size='xl' />
         </Flex>
 
         <Box p={6}>
@@ -54,8 +48,8 @@ export default function Home() {
             mt={8}
             bg={useColorModeValue('#151f21', 'gray.900')}
             color='white'
-            rounded='md'
-            leftIcon={<IoLogoGithub />}
+            rounded='lg'
+            leftIcon={<TbBrandGithub />}
             _hover={{
               transform: 'translateY(-2px)',
               boxShadow: 'lg',
@@ -70,14 +64,30 @@ export default function Home() {
             mt={3}
             bg={useColorModeValue('#151f21', 'gray.900')}
             color='white'
-            rounded='md'
-            leftIcon={<IoLogoTwitter />}
+            rounded='lg'
+            leftIcon={<TbBrandTwitter />}
             _hover={{
               transform: 'translateY(-2px)',
               boxShadow: 'lg',
             }}
           >
             Twitter
+          </Button>
+          <Button
+            as='a'
+            href='mailto:admin@idm1try.ru'
+            w='full'
+            mt={3}
+            bg={useColorModeValue('#151f21', 'gray.900')}
+            color='white'
+            rounded='lg'
+            leftIcon={<TbMail />}
+            _hover={{
+              transform: 'translateY(-2px)',
+              boxShadow: 'lg',
+            }}
+          >
+            Mail
           </Button>
         </Box>
       </Box>

@@ -10,16 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@babel/core": "^7.19.3",
-    "@chakra-ui/react": "^2.3.5",
-    "@chakra-ui/styled-system": "^2.3.4",
+    "@chakra-ui/react": "^2.3.6",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    "framer-motion": "^7.5.3",
+    "framer-motion": "^7.5.4",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.6.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.1.0",
@@ -27,8 +25,8 @@
     "@types/node": "18.7.9",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
     "commitlint": "^17.1.2",
     "eslint": "^8.25.0",
     "eslint-config-next": "^12.3.1",
