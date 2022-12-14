@@ -1,6 +1,6 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import '../styles/globals.css';
+import { AppProps } from 'next/app'
+import Head from 'next/head'
+import '../styles/globals.css'
 
 const Website = ({ Component, pageProps, router }: AppProps) => (
   <div>
@@ -18,6 +18,6 @@ const Website = ({ Component, pageProps, router }: AppProps) => (
     </Head>
     <Component {...pageProps} key={router.route} />
   </div>
-);
+)
 
-export default Website;
+export default Website

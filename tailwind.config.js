@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        fade_in_up: 'fade_in_up 550ms cubic-bezier(0.68, -0.6, 0.32, 1.6) forwards',
+        fade_in_up:
+          'fade_in_up 550ms cubic-bezier(0.68, -0.6, 0.32, 1.6) forwards',
       },
       keyframes: {
         fade_in_up: {
@@ -23,4 +24,4 @@ module.exports = {
   future: {
     hoverOnlyWhenSupported: true,
   },
-};
+}

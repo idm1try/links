@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { TbBrandGithub, TbBrandTwitter, TbMail } from 'react-icons/tb';
-import Avatar from '../../public/avatar.webp';
+import Image from 'next/image'
+import { TbBrandGithub, TbBrandTwitter, TbMail } from 'react-icons/tb'
+import Avatar from '../../public/avatar.webp'
 
 export default function Home() {
   return (
@@ -33,5 +33,5 @@ export default function Home() {
         </a>
       </div>
     </div>
-  );
+  )
 }
