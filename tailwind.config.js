@@ -1,26 +1,21 @@
-/** @type {import('tailwindcss').Config} */
+/* @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/pages/**/*.{jsx,tsx}', './src/components/**/*.{jsx,tsx}'],
+  content: ['./src/**/*.{ts,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       animation: {
-        fade_in_up:
-          'fade_in_up 550ms cubic-bezier(0.68, -0.6, 0.32, 1.6) forwards',
+        in: 'in .6s both',
       },
       keyframes: {
-        fade_in_up: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(20px)',
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateY(0)',
-          },
+        in: {
+          '0%': { transform: 'translateY(18px)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 },
         },
       },
     },
   },
+  plugins: [],
   future: {
     hoverOnlyWhenSupported: true,
   },

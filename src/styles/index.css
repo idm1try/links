@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.animate-in {
+  animation-delay: calc(var(--index) * 130ms);
+}
+
+.underlined {
+  @apply underline decoration-neutral-300 decoration-2 underline-offset-4 transition-colors duration-300 hover:decoration-neutral-400 dark:decoration-neutral-700 dark:hover:decoration-neutral-500;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .animated-list:hover li {
+    opacity: 0.5;
+  }
+
+  .animated-list:hover li:hover {
+    opacity: 1;
+  }
+}

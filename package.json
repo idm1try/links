@@ -1,6 +1,10 @@
 {
-  "name": "idm1try.ru",
-  "author": "idm1try",
+  "name": "links",
+  "author": {
+    "name": "Dmitry Savchenko",
+    "email": "me@idm1try.ru",
+    "url": "https://idm1try.ru"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
@@ -9,25 +13,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.0.6",
+    "@next/font": "13.1.0",
+    "@vercel/analytics": "^0.1.6",
+    "next": "13.1.0",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.7.9",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
     "autoprefixer": "^10.4.13",
-    "eslint": "^8.29.0",
-    "eslint-config-next": "^13.0.6",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "postcss": "^8.4.20",
     "prettier": "^2.8.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
+    "prettier-plugin-tailwindcss": "^0.2.1",
     "tailwindcss": "^3.2.4",
     "typescript": "4.9.4"
   },

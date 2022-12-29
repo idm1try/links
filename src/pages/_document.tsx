@@ -1,11 +1,11 @@
-import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 
-export default class Document extends NextDocument {
+class MyDocument extends Document {
   render() {
     return (
-      <Html lang='en'>
+      <Html lang='en' className='scroll-smooth'>
         <Head />
-        <body className='mx-auto max-w-3xl break-words p-8 leading-6 text-zinc-900 transition-colors duration-500 dark:bg-gray-900 dark:text-zinc-300'>
+        <body className='bg-neutral-50 text-neutral-900 antialiased dark:bg-neutral-900 dark:text-neutral-100'>
           <Main />
           <NextScript />
         </body>
@@ -13,3 +13,5 @@ export default class Document extends NextDocument {
     )
   }
 }
+
+export default MyDocument
